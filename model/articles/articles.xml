@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<articles>
+    <article id="9">
+        <title>article009</title>
+        <linktext>ES6 Rest And Spread Operators</linktext>
+        <file>article009.php</file>
+    </article>
+    <article id="8">
+        <title>article008</title>
+        <linktext>ES6 Arrow Functions</linktext>
+        <file>article008.php</file>
+    </article>
+    <article id="7">
+        <title>article007</title>
+        <linktext>ES6 Overview</linktext>
+        <file>article007.php</file>
+    </article>
+    <article id="6">
+        <title>article006</title>
+        <linktext>Flexbox - New Layout Mode</linktext>
+        <file>article006.php</file>
+    </article>
+    <article id="5">
+        <title>article005</title>
+        <linktext>Workflow Sketch For This Site</linktext>
+        <file>article005.php</file>
+    </article>
+    <article id="4">
+        <title>article004</title>
+        <linktext>Customization Over Convention</linktext>
+        <file>article004.php</file>
+    </article>
+    <article id="3">
+        <title>article003</title>
+        <linktext>Styling The Page You're Looking At</linktext>
+        <file>article003.php</file>
+    </article>
+    <article id="2">
+        <title>article002</title>
+        <linktext>Cold Springs Wildfire</linktext>
+        <file>article002.php</file>
+    </article>
+    <article id="1">
+        <title>article001</title>
+        <linktext>Inside the Burn Zone</linktext>
+        <file>article001.php</file>
+    </article>
+</articles>

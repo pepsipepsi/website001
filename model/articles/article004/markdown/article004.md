@@ -1,0 +1,25 @@
+# Customization over Convention
+
+>The greatest misfortune of the wise man and the greatest unhappiness of the fool are based upon convention.
+>
+>~ Franz Schubert
+
+I work at a private software company as a QA engineer for our Information Systems Department, mainly in front-end development. I started in technical support and worked my way up - I'd imagine as a result of my interest in programming. I started out by watching a lot of courses through ["Lynda.com"](https://www.lynda.com/), but now prefer books.
+
+I've recognized a pattern in learning where I skip actually creating something meaningful using something I've studied because I've been distracted by a new subject. One example is how I've learned a lot about web development, but never went anywhere with it because I wanted to move on to learning about C++ because I didn't want to miss out on having exposure to that. While that's valid, I don't work in an environment where I am looking at C++ code, I work with php, html, css, javascript, and sql. *That's* what I should be focusing on.
+
+C++ is for "fun" on the weekends. I like to play around with OpenGL, SDL, SFML, Cocos2dx, and Qt 5, but it's really time consuming and though learning about these things means a lot to me as a programmer, it just doesn't hold a lot of professional promise. I'm hoping to add some content to this site explaining some of what I know about these things eventually but I'll stay away from that for now.
+
+What does hold a lot of value for me right now is Java. I'm in a position right now where I can say that I get paid in part for programming in Java and it is actually part of my job title. I don't know where this came about and who actually decided it, but part of my professional responsibility is to "design testing tools". I must have initially learned Java programming patterns though ["Processing"](https://processing.org/), a creative coding framework for making little animations and diagrams, and I've found that my experience with that has helped me a lot. 
+
+I've also had some experience with Python, and I wish I could use it all of the time. I am a little disappointed in people who continue to use Python 2.7, I actually ["ported a creative coding framework"](https://github.com/pepsipepsi/nodebox_opengl_python3) to Python 3 because while it's one of the best pure Python frameworks for that sort of thing, the authors don't feel obligated to port it themselves. 
+
+One thing that's changed in my approach to programming is my recognition of the difference between "loose scripting" as opposed to building out a framework. I think my approach has shifted a little towards favoring a larger amount of files/code repetition in the interest of abstraction and flexibility. For example, with this website I decided to devote a folder in the root directory of the project to containing the articles. It's a directory called "model" with an xml file called "articles" with a subdirectory for each article called "article1", "article2" and so on. Each folder has a php file called "articleXX.php", which are all identical 3 line handlers, and there is a separate folder for image in each and a folder called "markdown" with the actual article data in it. I thought naming the whole thing "model" helped me reason about where the data actually was in this project.
+ 
+The reason I did it that way is so each article can be completely modular on its own. The php handler actually identifies its own name to derive what the name of the markdown file is, so changing the number associated with it is trivial. Sure, it's redundant and wasteful, but the prevailing theme is each article being able to have its own unique features, if I wanted to change one article's php functionality, I have a place to do that, and it won't affect anything else. If I wanted to expand an article to contain sounds or other types of files, I have a place to do that.
+ 
+The articles, the images that go with them, and the code samples or whatever else is the content of the site, not the presentation. I have another directory called "view" where there's a bunch of styling scripts and css libraries. If I decided that I hated the "theme" of the site tomorrow, I'd only have to change things in there.
+ 
+While it's nice to be a *little* bit opinionated about the ways you do things, I wouldn't try to tell convince anyone else that this is the best way, in fact I'm pretty sure it isn't. What I think is important though, is having some kind of justification for selecting one way of doing things over another, even if its convoluted or incorrect.
+  
+<div class="list">Having a rationale behind your approach to something is important, but it's easy to get carried away with your opinions. It's not a good trade-off to adhere to conventions without some sort of compelling rationale.</div>
