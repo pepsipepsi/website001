@@ -2,7 +2,7 @@
 <articles>
     <article id="10">
         <title>article010</title>
-        <linktext>Next Article</linktext>
+        <linktext>ES6 Templates</linktext>
         <file>article010.php</file>
     </article>
     <article id="9">
