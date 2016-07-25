@@ -73,4 +73,20 @@ Without the spread operator, you'd end up with one of these.
 
 <pre class=code_sample><code class="language-javascript">["a", "b", Array[5], "h", "i", "j"]</code></pre>
 
+Another feature which solves the same problem is known as "destructuring", and is a shorthand to extract the values from an object or an array. 
+
+<pre class=code_sample><code class="language-javascript">
+// the values are unpacked into the variables
+let greetingsObject = {fr: "bonjour", de: "guten tag"};
+let {fr, de} = greetingsObject;
+
+console.log("if on french page : " + fr + "\n" + "if on german page : " + de);
+
+let url = ["https://", "www.amazon.com", "/books/itemsd897s897s7as"];
+let [protocol, domain] = url;
+
+console.log("the protocol is :" + protocol + "\n" + "the domain is" + domain);
+</code></pre>
+
+
 While these aren't exactly mind-blowing features, the rest and spread operators are really nice for a lot of different scenarios. Features like this really helped Python gain popularity, and it's great to be able to extend those patterns to Javascript now.
