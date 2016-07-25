@@ -56,8 +56,6 @@ Good Evening
 Governor
 */</code></pre>
 
-It's interesting to see a function call without parenthesis, an arrow, or anything, but what this gives us is another place to process or modify the template. For example, if the template needed to be encoded, encrypted, or have certain characters removed, the tag function would be the right place to do that.
+It's interesting to see a function call without parenthesis, an arrow, or anything, but what this gives us is another place to process or modify the template. For example, if the template needed to be encoded, encrypted, or have certain characters removed, the tag function would be the right place to do that. It's also an ideal place to add all of the markup a repeating templated element would require.
 
-
-
-
+<div class="list">to be continued</div>

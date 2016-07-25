@@ -32,8 +32,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="289">
+                <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -339,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -466,7 +466,7 @@
       <workItem from="1469404701990" duration="900000" />
       <workItem from="1469405605462" duration="498000" />
       <workItem from="1469407275941" duration="82000" />
-      <workItem from="1469407628112" duration="1704000" />
+      <workItem from="1469407628112" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="doing a test commit">
       <created>1469405864885</created>
@@ -496,11 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469415868193</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cleanup article">
+      <created>1469416033839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1469416033839</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127504000" />
+    <option name="totallyTimeSpent" value="127754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="19" width="1206" height="717" extended-state="0" />
@@ -566,7 +573,8 @@
     <MESSAGE value="added to an article" />
     <MESSAGE value="finished article on es6 templates" />
     <MESSAGE value="forgot link name" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot link name" />
+    <MESSAGE value="cleanup article" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup article" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -911,8 +919,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="289">
+            <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
