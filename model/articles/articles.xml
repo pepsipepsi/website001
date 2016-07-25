@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <articles>
+    <article id="10">
+        <title>article010</title>
+        <linktext>Next Article</linktext>
+        <file>article010.php</file>
+    </article>
     <article id="9">
         <title>article009</title>
         <linktext>ES6 Rest And Spread Operators</linktext>
