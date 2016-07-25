@@ -78,7 +78,6 @@ It's interesting to see a function call without parenthesis, an arrow, or anythi
   }
   returnString += "</li>";
   return returnString;
-  
 }
 
 let userComments = [];
