@@ -11,8 +11,7 @@ char name[] = "Johnny";
 
 printf("Computer says: %s, how are you %s?", greeting, name);
 
-//outputs Good Morning, how are you Johnny?
-</code></pre>
+//outputs Good Morning, how are you Johnny?</code></pre>
 
 There's tons of libraries that enable this pattern in Javascript, such as Mustache, Handlebars, and Underscore, as well as frameworks like Angular and React of which easy templating is a major feature.
 
@@ -23,20 +22,17 @@ let name = "Governor";
 
 console.log(`${greeting}, how are you ${name}?`);
 
-//outputs Good Evening, how are you Governor?
-</code></pre>
+//outputs Good Evening, how are you Governor?</code></pre>
 
 You can include new lines within the string, and you can also use logic within the curly braces.
 
 <pre class=code_sample><code class="language-javascript">let numbers = [5,2,7,3,1,6]
 
-console.log(`the highest number is ${Math.max(...numbers)}`)
-</code></pre>
+console.log(`the highest number is ${Math.max(...numbers)}`)</code></pre>
 
 There are special ways to capture and deconstruct the presentation elements in the template from the variable elements. It's by using a "tag function" that these pieces can be captured in arrays.
 
-<pre class=code_sample><code class="language-javascript">
-let myTag = (template, ...values) => {
+<pre class=code_sample><code class="language-javascript">let myTag = (template, ...values) => {
   let stringPrint = string => console.log(string);
   console.log("my template is :\n");
   template.forEach(stringPrint);
@@ -51,20 +47,14 @@ myTag `Well ${greeting}, it's nice to see you ${name}!`;
 
 /*
 outputs
-
-my template is composed of :
-
+my template is :
 Well 
 , it's nice to see you 
 !
-
-my values are composed of :
-
+my values are :
 Good Evening
 Governor
-
-*/
-</code></pre>
+*/</code></pre>
 
 It's interesting to see a function call without parenthesis, an arrow, or anything, but what this gives us is another place to process or modify the template. For example, if the template needed to be encoded, encrypted, or have certain characters removed, the tag function would be the right place to do that.
 

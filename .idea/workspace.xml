@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e769f350-894c-4a8d-82dc-be0266dc4bdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/articles/articles.xml" afterPath="$PROJECT_DIR$/model/articles/articles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/articles/article010/markdown/article010.md" afterPath="$PROJECT_DIR$/model/articles/article010/markdown/article010.md" />
     </list>
     <ignored path="defyforce_test001.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="article010.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/articles/article010/markdown/article010.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="article009.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/articles/article009/markdown/article009.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
@@ -41,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="articles.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/articles/articles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -119,8 +135,8 @@
         <option value="$PROJECT_DIR$/model/articles/article009/markdown/article009.md" />
         <option value="$PROJECT_DIR$/model/articles/article001/markdown/article001.md" />
         <option value="$PROJECT_DIR$/model/articles/article010/article010.php" />
-        <option value="$PROJECT_DIR$/model/articles/article010/markdown/article010.md" />
         <option value="$PROJECT_DIR$/model/articles/articles.xml" />
+        <option value="$PROJECT_DIR$/model/articles/article010/markdown/article010.md" />
       </list>
     </option>
   </component>
@@ -450,7 +466,7 @@
       <workItem from="1469404701990" duration="900000" />
       <workItem from="1469405605462" duration="498000" />
       <workItem from="1469407275941" duration="82000" />
-      <workItem from="1469407628112" duration="1540000" />
+      <workItem from="1469407628112" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="doing a test commit">
       <created>1469405864885</created>
@@ -473,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469415775547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="forgot link name">
+      <created>1469415868193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469415868193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127340000" />
+    <option name="totallyTimeSpent" value="127504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="19" width="1206" height="717" extended-state="0" />
@@ -542,7 +565,8 @@
     <MESSAGE value="doing a test commit" />
     <MESSAGE value="added to an article" />
     <MESSAGE value="finished article on es6 templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished article on es6 templates" />
+    <MESSAGE value="forgot link name" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot link name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,20 +837,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/articles/article010/markdown/article010.php" />
-    <entry file="file://$PROJECT_DIR$/model/articles/article010/markdown/article010.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/articles/article008/article008.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -892,6 +902,20 @@
         <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/articles/article010/markdown/article010.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
