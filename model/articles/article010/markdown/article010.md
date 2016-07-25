@@ -56,6 +56,51 @@ Good Evening
 Governor
 */</code></pre>
 
+In this case, calling 
+
+myTag Well ${greeting}, it's nice to see you ${name}!
+
+invoked the tag function with these arguments.
+
+(['Well ', ', it's nice to see you', '!'], greeting, name)
+
+The template is split into array, and the however many variables there are individual arguments an excellent use case for the rest parameter.
+
 It's interesting to see a function call without parenthesis, an arrow, or anything, but what this gives us is another place to process or modify the template. For example, if the template needed to be encoded, encrypted, or have certain characters removed, the tag function would be the right place to do that. It's also an ideal place to add all of the markup a repeating templated element would require.
+
+<pre class=code_sample><code class="language-javascript">let addTags = (template, ...values) => {
+  let returnString = "<li>";
+  for (let i = 0; i < template.length; i ++){
+    returnString += template[i];
+    if (i < values.length){
+      returnString += values[i];
+    }
+  }
+  returnString += "</li>";
+  return returnString;
+  
+}
+
+let userComments = [];
+
+userComments[0] = {username:'Daniel', 
+                   membersince:'1-8-2010', 
+                   commentdate:'10-12-2012', 
+                   commentext:'Takes one to know one, troll.'};
+userComments[1] = {username:'Johnny', 
+                   membersince:'11-8-2011', 
+                   commentdate:'10-12-2012', 
+                   commentext:'You\'re the troll'};
+userComments[2] = {username:'Ben', 
+                   membersince:'5-18-2012', 
+                   commentdate:'10-12-2012', 
+                   commentext:'You\'re both idiots'};
+
+let commentsSection = '<ul>';
+for (let i = 0; i < userComments.length; i++){
+  commentsSection += addTags `User: ${userComments[i].username} Joined: ${userComments[i].membersince} Commentdate ${userComments[i].commentdate} Comment ${userComments[i].commentext}`;;
+}
+commentsSection += '</ul>';
+console.log(commentsSection);</code></pre>
 
 <div class="list">to be continued</div>
