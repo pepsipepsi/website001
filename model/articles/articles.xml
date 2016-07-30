@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <articles>
+    <article id="11">
+        <title>article011</title>
+        <linktext>Chromebooks Will Run Android Apps Soon</linktext>
+        <file>article011.php</file>
+    </article>
     <article id="10">
         <title>article010</title>
         <linktext>ES6 Templates</linktext>
