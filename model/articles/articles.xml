@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <articles>
+    <article id="12">
+        <title>article012</title>
+        <linktext>Remix OS - The Desktop Android Experience</linktext>
+        <file>article012.php</file>
+    </article>
     <article id="11">
         <title>article011</title>
         <linktext>Chromebooks Will Run Android Apps Soon</linktext>
