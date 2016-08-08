@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <articles>
+    <article id="14">
+        <title>article014</title>
+        <linktext>Presenting Kotlin - The Next Version Of Java</linktext>
+        <file>article014.php</file>
+    </article>
+    <article id="13">
+        <title>article013</title>
+        <linktext>JavaFX - The Platform That Never Was</linktext>
+        <file>article013.php</file>
+    </article>
     <article id="12">
         <title>article012</title>
         <linktext>Remix OS - The Desktop Android Experience</linktext>

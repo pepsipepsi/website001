@@ -1,5 +1,5 @@
 <header>
-    <p>~~Codin' For The Heck Of It~~</p>
+    <p>~~Codin' For The Hack Of It~~</p>
 </header>
 <script>
     $(window).scroll(function() {

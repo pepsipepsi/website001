@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>~~Codin' For The Heck Of It~~</title>
+    <title>~~Codin' For The Hack Of It~~</title>
     <script src="view/jquery/jquery-2.2.4.min.js" type="text/javascript"></script>
     <script src="view/bootstrap/bootstrap.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="view/bootstrap/bootstrap.min.css">
