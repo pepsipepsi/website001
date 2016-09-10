@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e769f350-894c-4a8d-82dc-be0266dc4bdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/articles/article015/article015.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/articles/article015/markdown/article015.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/articles/article016/article016.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/articles/article016/markdown/article016.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/articles/articles.xml" afterPath="$PROJECT_DIR$/model/articles/articles.xml" />
     </list>
     <ignored path="defyforce_test001.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -453,7 +452,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -481,6 +480,12 @@
       <method />
     </configuration>
     <configuration default="false" name="home.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/home.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -592,7 +597,7 @@
       <workItem from="1473080321643" duration="668000" />
       <workItem from="1473124168376" duration="2000" />
       <workItem from="1473129606989" duration="7000" />
-      <workItem from="1473519324866" duration="903000" />
+      <workItem from="1473519324866" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="doing a test commit">
       <created>1469405864885</created>
@@ -699,18 +704,25 @@
       <option name="project" value="LOCAL" />
       <updated>1470629133588</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added 2 more articles, dart and polymer">
+      <created>1473520248949</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1473520248949</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136508000" />
+    <option name="totallyTimeSpent" value="136735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="0" width="1105" height="730" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20904836" sideWeight="0.52806497" order="8" side_tool="true" content_ui="tabs" />
@@ -774,7 +786,8 @@
     <MESSAGE value="added chromebook article" />
     <MESSAGE value="added remix os article" />
     <MESSAGE value="added 2 articles, javafx and kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2 articles, javafx and kotlin" />
+    <MESSAGE value="added 2 more articles, dart and polymer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2 more articles, dart and polymer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
